@@ -1,0 +1,52 @@
+*{
+    text-align:center;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.tabl {
+    width: 60%;
+    margin: 20px auto;
+    text-align: left;
+}
+.banner {
+    width: 100%;
+   display:inline-block;
+    background-color:rgb(128, 122, 226);
+    
+    text-align: center;
+}
+.banner img{
+    margin:auto;
+    height:300px;
+    width:100%
+    
+}
+.bigH1{
+    padding:10px;
+    font-size:4vw
+    
+}
+
+.callToAction{
+    text-decoration: none;
+    margin:10px auto 16px;
+    transition-delay: 1s;
+}
+.callToAction:hover{
+    background-color: cornsilk;
+    color:black
+}
+.footer{
+    background-color: rgb(128, 122, 226);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content:center;
+    height:30px
+}
+.footer>p{
+    margin:0px;
+    font-size:10px
+}
